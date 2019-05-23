@@ -1,0 +1,51 @@
+According to the project_instruction, there are 4 main objectives
+
+2) Identify the dog breeds
+1) classify dog or not dog
+4) Time and accuracy tradeoff
+3) which model is best, meaning within CNN, we are using 3 CNNs times 
+
+I will be writing functions in the check_images.py file to accomplish the above mentioned four objectives. 
+
+So lets go to check_images.py file 
+
+Day 1) The performance of a CNN model can be seen when the classification or the output of the model matches with the file name of the image in the pet_images file. It took me two days to make sense of the instruction and i'm not even close to fully understanding why, how, what to do next. 
+
+Day 3) 4/12 TOday I got little sense into what they are asking. check_images.py has collections of functions that are defined in the other files suchs as get_input_args.py, get_pet_labels etc. So, All i have to is, go to individual files and define the functions and update teh check_images.py. So structrually, makes sense. 
+
+Although the objective is for me to learn python syntax, it is a long shot for me to write a piece of code that will extract the names in the get_pet_labels and create a dictionary. I think it is matter of exposure and practice. Nothing to feel worried about, right now. 
+
+Day 4) 4/13 Classify images -> what is this file? What does it do? 
+In this file i will be creating a function that will classify the images or creates classifer labels and then compares to pet image labels
+
+We created a classifer.py, in this file there is function that will create classifer lables. This function in imported into the classify_images.py to generate classifer labels.
+
+Day 5-10) Now things are gettng confusing. Its like understanding the dynamics of swimming but you need to start "ACTUALLY" swim, feel the anxitey. By no means, I sould assume i will learn how to write correct in single sitting. I will be challenging and fustrating until i get it right. Its the process of getting right is more imprtant then getting it right in the first attempt. 
+
+This is doabel but requires lot of practice with the code. What was most helpful is to see the results of a code and then build code around it. 
+
+for example:
+
+From facing an error: 
+
+name_list = ["tom", "dick", "harry"]
+name_dict = dict()
+for name in range(0, len(name_list), 1):
+    name_dict[name_list[name]] = name_list[name]
+    print(name_dict)
+
+Getthing this result. 
+name_list = ["tom", "dick", "harry"]
+d = dict((n, n) for n in name_list)
+print(d)
+
+
+results_dic = {"FIRST": 3, "second": 2}
+for key in results_dic:
+    model_lab = [key]
+    print(model_lab)
+
+The hardest part of the project is understanding the instructions. Once i started to see how these files were interaction or realated, it became easier.
+however the coding was not intuitaive. 
+
+Week 3 - I'm running out of time and im making very small progress in gaining the skillest to finish this project. I feel it will take time to gain the effciency, accuracy, and speed to code python. Right now i'm still playing with tasks in hackerrank. This looks way beyond my capacity. 
